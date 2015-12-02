@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {margin:0px;}
+
+#wrapper {width:960px; margin:0 auto; position:relative;}
+
+#header {}
+
+#nav {font-size: 24px; text-align:center; font-family: gabriola;}
+
+#nav2 {font-size: 24px; text-align:center; font-family: gabriola;}
+
+#contentlocation {padding-left: 30px; padding-top: 30px; padding-bottom: 30px;}
+
+#contentindex {width: 600px; float:left; margin-bottom: 25px; padding-top: 25px; height: 420px;}
+
+#contentindexright {width: 310px; float:left; color:#901b1b; font-family: gabriola; font-size:20px; padding-top: 25px; padding-left: 25px; padding-right: 25px; height: 420px;}
+}
+
+#contentreviewleft {width: 250px; float:left; padding-top: 30px; padding-bottom: 30px; position:absolute; left: 20px; top: 20px;}
+
+#contentreviewmiddle {width: 390px; float:left; text-align:center; font-family: gabriola; font-size: 24px; padding-left: 30px; padding-right: 30px; padding-top: 30px;
+position:absolute; top: 140px; left: 250px;}
+
+#contentreviewright {width: 250px; float:right; padding-top: 30px; position:absolute; top: 140px; right: 20px;}
+
+#contentroomleft{width: 350px; float:left; padding-top: 70px; padding-bottom: 35px;}
+
+#contentroomleft img {box-shadow: 5px 5px 5px #333;}
+
+#contentroomright {width: 490px; float:left; font-family: gabriola; font-size:20px; color:#901b1b; padding-left: 60px; padding-right: 60px;}
+
+#content {background-color:#f4f4f4; height: 500px;}
+
+#contentthankyou {background-color:#f4f4f4; height: 250px; text-align:center;}
+
+#contentcontactleft {width: 350px; float:left; padding-top: 35px; padding-bottom: 35px;}
+
+#contentcontactleft img {box-shadow: 5px 5px 5px #333;}
+
+#contentcontactright {width: 530px; float:left; padding-left: 80px; font-family: gabriola; font-size:20px; color:#901b1b;}
+
+#bookingimgleft {width: 340px; float:left; padding-top: 25px;}
+
+#bookingimgleft img {box-shadow: 5px 5px 5px #333;}
+
+#bookingtop {height:80px; text-align:center;}
+
+#contentbooking {width: 560px; float:left; height: 500px; padding-left: 60px;}
+
+#footerleft {width: 280px; float:left; text-align:center; font-family: gabriola; border-top-style:groove; color:#901b1b; clear:both; font-size:18px;}
+
+#footercentre {font-family: gabriola; color:#901b1b; width:400px; float:left; text-align:center; border-top-style:groove; font-size:18px;}
+
+#footerright {width: 280px; float:left; text-align:center; font-family: gabriola; border-top-style:groove; color:#901b1b; font-size:18px;}
+
+h1 {font-family: gabriola;}
+h2 {font-family: gabriola;}
+
+form { position:relative; }
+form input { position:absolute; left:11em; }
+
+ul{list-style-type:none;margin:0;padding:0;}
+li{display:inline; padding-left: 20px; padding-right: 20px;}
+
+
+a:link {color:#901b1b; text-decoration:none;}      /* unvisited link */
+a:visited {color:#901b1b; text-decoration:none;}  /* visited link */
+a:hover {text-decoration:underline;}  /* mouse over link */
+a:active {color:#901b1b; text-decoration:none;}  /* selected link */
+
+label { vertical-align:top; }
+
+#slideshow 
+{width: 100%;
+position: relative;}
+    
+#slideshow img 
+{top: 0;
+left: 0;
+width: 100%;
+max-width: 600px;
+height: auto; 
+position: absolute;
+box-shadow: 5px 5px 5px #333;}
+

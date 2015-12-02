@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	thumbPosition="LEFT"
+	titlePosition="LEFT"
+	captionPosition="LEFT"
+	buttonBarPosition="OVERLAY"
+	buttonBarVAlign="BOTTOM"
+	buttonBarHAlign="CENTER"
+	showNavButtons="false"
+	showAutoPlayButton="false"
+	showOpenButton="false"
+	showFullscreenButton="false"
+	buttonBarScale="1.4"
+	buttonBarBackOpacity="0.5"
+	buttonBarPadding="20"
+	showImageNav="HOVER"
+	showToolTips="false"
+	imageScaleMode="SCALE_UP"
+	showOverlay="ALWAYS"
+	imageTransitionType="CROSS_FADE"
+	imageFrameStyle="NONE"
+	frameWidth="0"
+	autoPlayOnLoad="false"
+	imagePreloading="PAGE"
+	imageClickMode="NAVIGATE"
+	thumbColumns="2"
+	thumbRows="5"
+	thumbNavPosition="CENTER"
+	captionDropShadow="true"
+	flickrTitleFontColor="#FFFF00"
+	flickrTitleFontSize="30"
+	captionPadding="20"
+	imageNumberFontSize="10"
+	thumbFrameWidth="0"
+	thumbLoadBarHeight="10"
+	imageNavStyle="CURSOR"
+	captionFontSize="15"
+	thumbHoverFrameWidth="2"
+	hideOverlayOnTransition="false"
+	lockBottomStack="true"
+	galleryWidth="960px"
+	galleryHeight="550px"
+	backgroundColor="FFFFFF"
+	useColorCorrection="false"
+	textColor="000000"
+	imageNavColor="FFFFFF"
+	showThumbVisited="false"
+	titleFontColor="901B1B"
+	titleFontName="gabriola"
+	titleFontSize="24"
+	captionFontColor="000000"
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	title="Bedrooms"
+
+>
+  <image imageURL="images/01.jpg"
+	thumbURL="thumbs/01.jpg"
+	linkURL="images/01.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/02.jpg"
+	thumbURL="thumbs/02.jpg"
+	linkURL="images/02.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/02a.JPG"
+	thumbURL="thumbs/02a.JPG"
+	linkURL="images/02a.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/03.jpg"
+	thumbURL="thumbs/03.jpg"
+	linkURL="images/03.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/04.JPG"
+	thumbURL="thumbs/04.JPG"
+	linkURL="images/04.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/05.jpg"
+	thumbURL="thumbs/05.jpg"
+	linkURL="images/05.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/05a.JPG"
+	thumbURL="thumbs/05a.JPG"
+	linkURL="images/05a.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/08.JPG"
+	thumbURL="thumbs/08.JPG"
+	linkURL="images/08.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/09.JPG"
+	thumbURL="thumbs/09.JPG"
+	linkURL="images/09.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/10.JPG"
+	thumbURL="thumbs/10.JPG"
+	linkURL="images/10.JPG"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

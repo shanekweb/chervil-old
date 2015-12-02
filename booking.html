@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Cherville is a luxurious family operated Bed and Breakfast in Cavan Town. Centrally located in the North East of Ireland it is a perfect base for your holidays." /> 
+<meta name="keywords" content="Bed and Breakfast, Cavan Town, cavan town, drumalee, cavan, Cavan, Ireland, country house, Dublin, dublin, Ireland, ireland, cavan, Dublin, dublin, Eire, eire, Republic of Ireland, republic of ireland, republic, irish, guest house, guest, house, travel lodge, travel, lodge, inn, hotel, motel, magnificent, country, house, homely, b&amp;b, B&amp;B, b &amp; b, B &amp; B, Bed and Breakfast, bed and breakfast, bed &amp; breakfast; breakfast, bed, breakfast, information, holiday, vacations, touring, tourist, guide, hotels, quality, accommodation, lodgings, rooms, leisure, good food,, friendly, restaurants, fishing, sailing, rambling, walks, walking, touring, drives, traditional" />
+<meta name="robots" content="index,follow" />
+<meta name="geo.country" content="Ireland" />
+<meta name="geo.region" content ="Cavan" />
+<title>Cherville B&amp;B Enquiry Form</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19153430-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+
+<body>
+<div id="wrapper">
+
+<div id="header"><a href="index.html"><img src="images/Header01 (2).png" border="0" /></a></div><!--closeheader-->
+
+<div id="nav">
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="location.html">Location</a></li>
+<li><a href="reviews.html">Reviews</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="booking.html">Booking</a></li>
+<li><a href="rooms.html">Rooms</a></li>
+
+</ul>
+
+</div><!--closenav-->
+
+<div id="bookingimgleft"><img src="images/Stairs.jpg" /></div><!--closebookingimgleft-->
+
+<div id="bookingtop">
+<h1><span style="font-size:24px; color:#901b1b">Enquiry Form</span></h1>
+</div><!--closebookingtop-->
+
+
+
+<div id="contentbooking">
+  <form id="form1" name="form1" method="post" action="bookingformprocess.php">
+    <p><label for="name">Name*</label>
+    <input name="name" type="text" id="name" size="30" /></p>
+    <p><label for="email">Email*</label>
+    <input name="email" type="text" id="email" size="30" /></p>
+    <p><label for="phone">Phone*</label>
+    <input name="phone" type="text" id="phone" size="30" /></p>
+    <p><label for="numberofrooms">Address</label>
+    <input name="address" type="text" id="address" size="30" /></p>
+    <p><label for="rooms">Rooms</label>
+     <select name="rooms" size="1" id="rooms">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+     </select>
+     <label for="adults">Adults</label>
+     <select name="adults" size="1" id="adults">
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+       <option value="6">6</option>
+       <option value="7">7</option>
+       <option value="8">8</option>
+     </select>
+     <label for="children">Children (under 12)</label>
+     <select name="children" size="1" id="children">
+       <option value="0">0</option>
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+     </select></p>
+    <label for="day">Arrival Date (DD/MM/YYYY)</label>
+    <select name="day" size="1" id="day">
+      <option value="-" selected="selected">-</option>
+      <option value="01">01</option>
+      <option value="02">02</option>
+      <option value="03">03</option>
+      <option value="04">04</option>
+      <option value="05">05</option>
+      <option value="06">06</option>
+      <option value="07">07</option>
+      <option value="08">08</option>
+      <option value="09">09</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+      <option value="29">29</option>
+      <option value="30">30</option>
+      <option value="31">31</option>
+    </select>
+    <select name="month" size="1" id="month">
+      <option value="-" selected="selected">-</option>
+      <option value="01">01</option>
+      <option value="02">02</option>
+      <option value="03">03</option>
+      <option value="04">04</option>
+      <option value="05">05</option>
+      <option value="06">06</option>
+      <option value="07">07</option>
+      <option value="08">08</option>
+      <option value="09">09</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>
+    <select name="year" size="1" id="year">
+      <option value="-" selected="selected">-</option>
+      <option value="2014">2014</option>
+      <option value="2015">2015</option>
+      <option value="2016">2016</option>
+      <option value="2017">2017</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+    </select></p>
+    <p><label for="nights">Number of Nights</label>
+    <select name="nights" size="1" id="nights">
+      <option value="-" selected="selected">-</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+    </select></p>
+    <p><label for="comments">Comments/Requests</label>
+      <textarea name="comments" id="comments" cols="30" rows="5"></textarea></p>
+    <input name="Button" type="submit" id="Button" onclick="MM_validateForm('name','','R','email','','RisEmail','phone','','RisNum');return document.MM_returnValue" value="Submit" /><br /><br />
+    <input type="Reset" name="Reset" id="Reset" value="Reset" />
+    </form>
+</div><!--closecontentbookingright-->
+
+<div id="footerleft">
+Shane K Design, 2011<br />
+www.skd.me
+</div><!--closefooterleft-->
+
+<div id="footercentre">
+Cherville Bed & Breakfast, Drumalee, Cavan town<br />
+Artwork & Interior Design by Georgina
+</div><!--closefooter-->
+
+<div id="footerright">
+Phone: 049 4372855<br />
+E-mail: cherville.bedandbreakfast@gmail.com
+</div><!--closefooterright-->
+
+</div><!--closewrapper-->
+</body>
+</html>
